@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/* navbar styling */
+.navbar{
+    width: 100%;
+}
+
+.container-fluid img{
+    width: 170px;
+}
+
+.navbar .nav-link{
+    font-size: 18px;
+    color: black !important;
+    font-weight: 500;
+    margin: 0px 5px;
+}
+
+.nav-item .dropdown a{
+    font-size: 18px;
+}
+
+.nav-item .dropdown:hover{
+    background-color: #6c63ff;
+    transition: all 0.4s;
+    border-radius: 5px;
+}
+
+.nav-item .dropdown:hover > .dropdown-menu{
+    display: block;
+    border-radius: 5px;
+}
+
+.nav-item .dropdown .btn{
+    font-weight: 500;
+    background: rgb(255 255 255 / 0%);
+    color: black;
+    border: none; 
+    box-shadow: none;
+    padding: 8px 12px;
+}
+
+.nav-item .register-btn{
+    font-weight: 500;
+    background-color: #6c63ff;
+    border-color: #6c63ff;
+    padding: 8px 26px !important;
+}
+
+.nav-item .login-btn{
+    font-weight: 500;
+    background-color: #6c63ff;
+    border-color: #6c63ff;
+    padding: 8px 26px !important;
+}
+
+@media only screen and (max-width: 1090px) {
+    .navbar{
+        background: #f8f9fa !important;
+        width: 100%;
+    }
+    .navbar .nav-link{
+        color: black !important;
+        padding: 8px;
+    }
+    .nav-item .dropdown a{
+        color: black !important;
+    }
+    .nav-item .register-btn{
+        margin: 10px;
+    }
+    .nav-item .login-btn{
+        margin: 10px;
+    }
+}
+
+/* overlap card-text on the card-img */
+.card-img img{
+    width: 100%;
+    height: 100%;
+}
+.card-img-overlay{
+    width: 35%;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    font-family: 'poppins';
+} 
+.card-img-overlay .card-title{
+    font-size: 4rem;
+}
+#small_screen_card{
+    display: none;
+    text-align: center;
+}
+
+/* our journey and history section */
+#about{
+    display: flex;
+    width: 72%;
+    margin-top: 5rem;
+    font-family: 'Poppins', sans-serif;
+}
+#history, #our_journey{
+    width: 45%;
+    margin: 2rem;
+    padding: 1.2rem;
+    border: 0;
+}
+#our_journey{
+    border-left: solid 1.5px;
+    padding-left: 2.2rem;
+}
+#proof{
+    padding: 4rem;
+    padding-left: 5rem;
+    font-size: 1.5rem;
+    background-color: rgba(0,173,225,.1);
+    border: 0rem;
+    border-radius: 0rem;
+}
+#proof span{
+    font-size: 2.4rem;
+    font-weight: 650;
+}
+#proof .card-title{
+    margin-bottom: 3rem;
+}
+#proof #last_proof{
+    margin-bottom: 0;
+}
+#history .card-body{
+    font-size: 1.2rem;
+}
+.card-title h3{
+    padding-left: 1rem;
+    padding-top: 4.4rem;
+    font-weight: 900;
+}
+/* adding uderline to the proof section */
+.year::after{
+    content: ' ';
+    background: red;
+    height: 4px;
+    width: 2.6rem;
+    margin-left: 0.2rem;
+    display: block;
+}
+/* our story timeline making */
+.year{
+    margin-left: -3.8rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    background-color: white;
+}
+.text{
+    margin-left: 1rem;
+    margin-top: -3rem;
+    font-family: 'Poppins', sans-serif;
+}
+#our_journey div{
+    margin-top: 4rem;
+    font-size: 1.2rem;
+}
+#our_journey_title i{
+    font-size: 3rem;
+}
+#our_journey_title{
+    margin-top: 3.5rem;
+    margin-left: -3.5rem;
+    background-color: white;
+}
+
+/* styling company_values */
+#company_values{
+    display: flex;
+    background-image: linear-gradient(rgba(0, 11, 29, 0.562),rgba(1, 13, 46, 0.61)), url("img/company_values2.jpg");
+    background-size: cover; 
+    color: white;
+    font-family: 'poppins';
+    margin-top: 4rem;
+}
+#company_values .card{
+    background: transparent;
+    width: 38%;
+    font-size: 1.1rem;
+    text-align: center;
+}
+.values{
+    width: 60%;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+}
+#company_values .values_title{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 8rem;
+    margin-left: 6rem;
+}
+#company_values .card-title{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+#second_value, #fourth_value{
+    margin-left: 4rem;
+}
+.card i{
+    font-size: 2.5rem;
+}
+/* making values display flex */
+.values1, .values2{
+    display: flex;
+}
+.values2{
+    margin-top: 3rem;
+}
+
+/* location section */
+#location{
+    margin-top: 5rem;
+    width: 80%;
+    display: flex;
+    font-family: 'poppins';
+}
+#location .card{
+    border: 0rem;
+}
+#location_text{
+    width: 50%;
+}
+#location_text .card-title{
+    padding-left: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+#main_text{
+    font-size: 1.2rem;
+    margin-bottom: 3.5rem;
+}
+/* headquater styling vadodara */
+#hq{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+/* carrer oportunity styling */
+#career .btn{
+    margin-top: 1.1rem;
+}
+
+/* founder_Info section design */
+h2{
+    text-align: center;
+    margin: 5rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+}
+#founder_info{
+    text-align: center;
+    font-family: 'poppins';
+    width: 40%;
+    align-items: center;
+}
+#founder_info .card-title{
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1438px){
+    .card-img-overlay .card-title{
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 1350px){
+    #about{
+        width: 75%;
+    }
+}
+@media screen and (max-width: 1200px){
+    html{
+        font-size: 14px;
+    }
+    #about{
+        width: 77%;
+    }
+}
+
+@media screen and (max-width: 1060px){
+    html{
+        font-size: 13px;
+    }
+    #about{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 960px){
+    html{
+        font-size: 12.5px;
+    }
+    #about{
+        width: 83%;
+    }
+    #location{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 915px){
+    html{
+        font-size: 11.8px;
+    }
+}
+
+@media screen and (max-width: 863px){
+    .card-img-overlay .card-title{
+        font-size: 3rem;
+    }
+    #company_values .card{
+        width: 44%;
+    }
+    .values{
+        width: 69%;
+    }
+    #company_values .values_title{
+        margin-left: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 829px){
+    #about{
+        width: 90%;
+    }
+    #location{
+        width: 95%;
+    }
+    #company_values .values_title{
+        margin-left: 2.8rem;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #about{
+        width: 93%;       
+    }
+    #location{
+        width: 98%;
+    }
+    .card-img-overlay .card-title{
+        font-size: 2.9rem;
+    }
+    #company_values .values_title{
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (max-width: 760px){
+    .card-img-overlay .card-title{
+        font-size: 3rem;
+    }
+    #location .card .card-img{
+        display: none;
+    }
+    #location{
+        width: 80%;
+    }
+    #location_text{
+        width: 90%;
+    }
+    #founder_info{
+        width: 54%;
+    }
+    .card-img-overlay .card-title{
+        font-size: 2.6rem;
+    }
+    #company_values .card{
+        width: 70%;
+    }
+    .values{
+        width: 95%;
+    }
+    #company_values .values_title{
+        margin-left: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 720px){
+    #about{
+        width: 100%;
+    }
+    .card-img-overlay .card-title{
+        font-size: 2.4rem;
+    }
+}
+
+@media screen and (max-width: 680px){
+    #location{
+        width: 87%;
+    }
+    .card-img-overlay .card-title{
+        font-size: 2.2rem;
+    }
+    #company_values .card{
+        width: 100%;
+    }
+    .values{
+        width: 100%;
+    }
+    #company_values .values_title{
+        margin-left: 1.5rem;
+        font-size: 3.2rem;
+    }
+}
+
+@media screen and (max-width: 630px){
+    .card-img-overlay .card-title{
+        font-size: 2rem;
+    }
+    #company_values .card{
+        width: 100%;
+    }
+    .values{
+        width: 100%;
+    }
+    #company_values .values_title{
+        margin-left: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 578px){
+    html{
+        font-size: 12.2px;
+    }
+    #about{
+        display: block;
+        align-items: center;
+    }
+    .card-title h3{
+        padding-left: 0.5rem;
+        padding-top: 0rem;
+    }
+    #history, #our_journey{
+        width: 92%;
+    }
+    #location{
+        width: 90%;
+    }
+    #founder_info{
+        width: 70%;
+    }
+    .card-img-overlay .card-title{
+        display: none;
+    }
+    #small_screen_card{
+        display: block;
+        border: 0px;
+        font-size: 2rem;
+        margin-top: 1rem;
+        font-weight: bold;
+    }
+    #company_values{
+        display: block;
+    }
+    .values{
+        width: 100%;
+        margin-top: 1.6rem;
+    }
+    #company_values .values_title{
+        margin-left: 0rem;
+        text-align: center;
+    }
+    #about{
+        margin-top: 0rem;
+    }
+    #history{
+        padding: 2rem;
+        padding-left: 0rem;
+    }
+}
+
+@media screen and (max-width: 392px){
+    #founder_info{
+        width: 85%;
+    }
+    .values1, .values2{
+        display: block;
+    }
+    .values{
+        text-align: center;
+    }
+    .values .card{
+        margin-top: 1rem;
+    }
+    #second_value, #fourth_value{
+        margin-left: 0rem;
+    }
+}

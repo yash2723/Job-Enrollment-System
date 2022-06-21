@@ -1,0 +1,130 @@
+
+
+.container{
+    margin-top: 0.4rem;
+    width: 75%;
+  }
+  .card .card-title{
+    background-color: rgb(240, 103, 69);
+    color: white;
+    padding: 0.5rem;
+    padding-left: 0.8rem;
+    font-size: 1.2rem;
+  }
+  .card ol li{
+    font-weight: bold;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+  }
+  .card ul li{
+    font-weight: normal;
+    font-size: 1.1rem;
+    margin-top: 0.1rem;
+  }
+  #accept_instru{
+    border: 0rem;
+    margin-top: 2.5rem;
+  }
+  #accept_instru{
+    margin-top: 0.6rem;
+    width: 12rem;
+  }
+  #footer{
+    margin-top: 2rem;
+    padding: 0.5rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 568px){
+    .container{
+      width: 90%;
+    }   
+  }
+
+  @media screen and (max-width: 440px){
+    .container{
+      width: 98%;
+    }   
+  }
+
+  @media screen and (max-width: 350px){
+    html{
+      font-size: 15px;
+    }
+  }
+
+  .navbar{
+    width: 100%;
+}
+
+.container-fluid img{
+    width: 170px;
+}
+
+.navbar .nav-link{
+    font-size: 18px;
+    color: black !important;
+    font-weight: 500;
+    margin: 0px 5px;
+}
+
+.nav-item .dropdown a{
+    font-size: 18px;
+}
+
+.nav-item .dropdown:hover{
+    background-color: #6c63ff;
+    transition: all 0.4s;
+    border-radius: 5px;
+}
+
+.nav-item .dropdown:hover > .dropdown-menu{
+    display: block;
+    border-radius: 5px;
+}
+
+.nav-item .dropdown .btn{
+    font-weight: 500;
+    background: rgb(255 255 255 / 0%);
+    color: black;
+    border: none; 
+    box-shadow: none;
+    padding: 8px 12px;
+}
+
+.nav-item .register-btn{
+    font-weight: 500;
+    background-color: #6c63ff;
+    border-color: #6c63ff;
+    padding: 8px 26px !important;
+}
+
+.nav-item .login-btn{
+    font-weight: 500;
+    background-color: #6c63ff;
+    border-color: #6c63ff;
+    padding: 8px 26px !important;
+}
+
+@media only screen and (max-width: 1090px) {
+    .navbar{
+        background: #f8f9fa !important;
+        position: fixed;
+        width: 100%;
+    }
+    .navbar .nav-link{
+        color: black !important;
+        padding: 8px;
+    }
+    .nav-item .dropdown a{
+        color: black !important;
+    }
+    .nav-item .register-btn{
+        margin: 10px;
+    }
+    .nav-item .login-btn{
+        margin: 10px;
+    }
+}

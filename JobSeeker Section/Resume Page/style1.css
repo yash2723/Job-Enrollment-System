@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+
+.container-fluid img{
+    width: 170px;
+}
+
+.navbar .nav-link{
+    font-size: 18px;
+    color: black !important;
+    font-weight: 500;
+    margin: 0px 5px;
+}
+
+.nav-item .dropdown a{
+    font-size: 18px;
+}
+
+.nav-item .dropdown:hover{
+    background-color: #6c63ff;
+    transition: all 0.4s;
+    border-radius: 5px;
+}
+
+.nav-item .dropdown:hover > .dropdown-menu{
+    display: block;
+    border-radius: 5px;
+}
+
+.nav-item .dropdown .btn{
+    font-weight: 500;
+    background: rgb(255 255 255 / 0%);
+    color: black;
+    border: none; 
+    box-shadow: none;
+    padding: 8px 12px;
+}
+
+.nav-item .register-btn{
+    font-weight: 500;
+    background-color: #6c63ff;
+    border-color: #6c63ff;
+    padding: 8px 26px !important;
+}
+
+.nav-item .login-btn{
+    font-weight: 500;
+    background-color: #6c63ff;
+    border-color: #6c63ff;
+    padding: 8px 26px !important;
+}
+
+@media only screen and (max-width: 1090px) {
+    .navbar{
+        background: #f8f9fa !important;
+        position: fixed;
+        width: 100%;
+    }
+    .navbar .nav-link{
+        color: black !important;
+        padding: 8px;
+    }
+    .nav-item .dropdown a{
+        color: black !important;
+    }
+    .nav-item .register-btn{
+        margin: 10px;
+    }
+    .nav-item .login-btn{
+        margin: 10px;
+    }
+}
+
+
+
+
+
+
+
+.container .row .col-8{
+    margin-left: 25px;
+}
+
+.container .row .col-8 .shadow{
+    position: relative;
+    box-shadow: 0 0 10px 0 rgba(0,24,128,.1) !important;
+}
+
+.container .row .col-8 .card{
+    border: none;
+    position: relative;
+}
+
+.container .row .col-8 .card-body .card-text{
+    margin-top: 30px;
+    color: #6f6f6f;
+}
+
+.container .row .col-8 .card-body .edit-btn{
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    box-shadow: none;
+}
+
+
+
+
+
+
+/* -------- Modal -------- */
+.col-8 .modal .modal-header{
+    background: #efbb20;
+    background-color: rgba(0,0,0,.04);
+}
+
+.col-8 .modal .modal-body .mb-3{
+    color: #6f6f6f;
+}
+
+.col-8 .modal .modal-body .mb-3 .alert{ 
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.col-8 .modal .modal-body .mb-3 .alert .btn-close{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 4px;
+}
+
+.col-8 .modal .modal-body .mb-3 textarea{
+    box-shadow: 0 0 10px 0 rgba(0,24,128,.1)!important;
+    outline: none;
+    border: none;
+}
+
+.col-8 .modal .modal-body .mb-3 input{
+    box-shadow: 0 0 10px 0 rgba(0,24,128,.1);
+    outline: none;
+    border: none;
+    height: 50px;
+}
+
+.col-8 .modal .modal-body .mb-3 .form-label{
+    margin-top: 30px;
+}
+
+.col-8 .modal .modal-body .mb-3 .btn-check{
+    box-shadow: none !important;
+}
+
+.col-8 .modal .modal-body .mb-3 label{
+    box-shadow: none !important;
+}
+
+.col-8 .modal .modal-footer{
+    background: #efbb20;
+    background-color: rgba(0,0,0,.04);
+}
+/* ---------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container .row .col-8 .card-body .btn img{
+    width: 20px;
+    height: 20px;
+}
+
+.container .row .col-8 .key-skills{
+    margin-top: 50px;  
+}
+
+.container .row .col-8 .key-skills .card .card-body .skills .btn{
+    box-shadow: none;
+    margin-top: 30px;
+    background-color: #e1e7ff;
+    border-color: #e1e7ff;
+}
+
+.container .row .col-8 .key-skills .card .card-body .skills .btn:hover{
+    background-color: #2e55fa;
+    border-color: #2e55fa;
+}
+
+.container .row .col-8 .employment{
+    margin-top: 50px;
+}
+
+.container .row .col-8 .education{
+    margin-top: 50px;
+}
+
+
+.container .row .col-8 .it-skills{
+    margin-top: 50px;
+}
+
+.container .row .col-8 .it-skills .card .card-body table th{
+    background-color: #e1e7ff;
+    padding: 20px 8px;
+    border: none;
+}
+
+.container .row .col-8 .it-skills .card .card-body table td{
+    padding: 18px 8px;
+    color: #6f6f6f;
+}
+
+.container .row .col-8 .it-skills .card .card-body table td img{
+    width: 15px;
+    height: 15px;
+}
+/* -------------------------------------------------- */
+.container .row .col-8 .projects{
+    margin-top: 50px;
+}
+
+/* ------------------------------------------------ */
+.container .row .col-8 .profile-summary{
+    margin-top: 50px;
+}
+/* ------------------------------------------------- */
+.container .row .col-8 .accomplishments{
+    margin-top: 50px;
+}
+
+.container .row .col-8 .accomplishments .accomplishment-section{
+    position: relative;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.container .row .col-8 .accomplishments .accomplishment-section .card-text{
+    margin-top: 20px;
+}
+
+.container .row .col-8 .accomplishments .accomplishment-section .btn{
+    top: 15px;
+    right: 15px;
+}
+
+.separator{
+    width: 100%;
+    height: 2px;
+    background-color: #6c63ff;
+    opacity: 0.1;
+}
+
+
+/* ------------------------------------ */
+
+.container .row .col-8 .career-profile{
+    margin-top: 50px;
+}
+
+.container .row .col-8 .career-profile .card-text{
+    margin-top: 10px;
+}
+
+
+/* -------------------------------------- */
+
+
+.container .row .col-8 .attach-resume{
+    margin-top: 50px;
+}
+
+.container .row .col-8 .attach-resume form .form-label{
+    cursor: pointer;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    margin: 20px 0px;
+    padding: 18px;
+    box-shadow: 0 0 10px 0 #b7b7fa;
+    border-radius: 20px;
+}
+
+.container .row .col-8 .attach-resume form .form-label img{
+    width: 29px;
+    height: 29px;
+}
+
+.container .row .col-8 .attach-resume form .form-control{
+    display: none;
+}
+
+
+/* generate cv button
+.btn-success{
+    height: 40px;
+} */

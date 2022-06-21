@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Latest compiled and minified CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+        <!-- Optional theme -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                
+        <!-- styling -->
+        <link rel="stylesheet" href="faqstyle.css">
+        <title>Job Finder - FAQs</title>
+</head>
+<body>
+  
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.php">
+          <img src="../images/web-logo1.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+  
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.php">Home</a>
+            </li>
+  
+            <li class="nav-item">
+              <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  For Candidates
+                </a>
+  
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="../Sign-in/sign-in.php">Profile</a></li>
+                  <li><a class="dropdown-item" href="../Sign-in/sign-in.php">My Resume</a></li>
+                  <li><a class="dropdown-item" href="../Sign-in/sign-in.php">Find Job</a></li>
+                  <li><a class="dropdown-item" href="../Sign-in/sign-in.php">Saved Jobs</a></li>
+                  <li><a class="dropdown-item" href="../Sign-in/sign-in.php">Applied Jobs</a></li>
+                  <li><a class="dropdown-item" href="../Sign-in/sign-in.php">Job Alerts</a></li>
+                  <li><a class="dropdown-item" href="../Sign-in/sign-in.php">Change Password</a></li>
+                </ul>
+              </div>
+            </li>
+  
+            <li class="nav-item">
+  
+              <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  For Employer
+                </a>
+  
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="../Sign-in/sign-in.php">Manage Profile</a></li>
+                  <li><a class="dropdown-item" href="../Sign-in/sign-in.php">Manage Jobs</a></li>
+                  <li><a class="dropdown-item" href="../Sign-in/sign-in.php">Manage Questions</a></li>
+                  <li><a class="dropdown-item" href="../Sign-in/sign-in.php">Show Details</a></li>
+                </ul>
+              </div>
+  
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link" href="../company_profiles/company_profile.html">About</a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link" href="../Sign-in/sign-in.php">
+                <i class="fas fa-search"></i>
+              </a>
+            </li>
+  
+            <li class="nav-item">
+  
+              <a class="nav-link btn btn-primary register-btn" href="../Sign-up/sign-up.php">
+                <i class="fas fa-user-plus"></i>
+                Sign Up
+              </a>
+  
+            </li>
+  
+            <li class="nav-item">
+  
+              <a class="nav-link btn btn-primary login-btn" href="../Sign-in/sign-in.php">
+                <i class="fas fa-lock"></i>
+                Login
+              </a>
+  
+            </li>
+  
+          </ul>
+  
+        </div>
+      </div>
+    </nav>
+
+    <!-- main Faq section using bootstrap accordian-->
+    <div class="container">
+        <h1>Frequently Asked Questions</h1>
+        <div class="row">
+          <div id="accordion">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                     <p>How can i make my profile on company's website?</p> 
+                    </button>
+                  </h5>
+                </div>
+            
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+                    Before you make profile on the website, you have to make an job seeker account on the website. after creating the account you will be redirected to job seeker's profile section and in which you can make your profile. 
+                    <br> Applying for any job you have to make your complete profile.
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      <p>Is there any facility to search the job of my interest?</p>
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                  <div class="card-body">
+                    Definietly Yes. <br> After you login to your account in website, you can find a "find Jobs" section in which you can search a job for what you are looking for. Moreover, website also provide different kind of filters like you can select a job based on your experience, Job salary,etc. 
+                  </div>
+                </div>
+              </div>
+              
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      <p>How can i apply for any perticular job on website?</p>
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                  <div class="card-body">
+                    After finding your interested job in "Find Jobs" section, you have to click on "view details" button. After clicking it, you are redirected to the view details page in which you can see the other details regarding to the job. In that page you can see the "Apply Now" button on right side of the page. You can apply for a job by clicking that button.
+                  </div>
+                </div>
+              </div>
+              
+              <div class="card">
+                <div class="card-header" id="headingFour">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      <p>What is the process for giving a test?</p>
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                  <div class="card-body">
+                    You have to apply for a job before giving test. After you apply for perticular job, at the bottom of the same page ( view details ) you will see "Give Test" button. You can give test by clicking on that button. 
+                    <br> Note that you can give test at the specified time which is set by the admin.
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="headingSix">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                      <p>How will i know that i am hired for a job?</p>
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                  <div class="card-body">
+                    After giving test, based on your test marks and cv analysis marks job seeeker's are shortlisted. If you the one who shortlisted, you will get "congratulation. You are selected." E-mail. 
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="headingSeven">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                      <p>Is it compulsory to give test?</p>
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+                  <div class="card-body">
+                    Yes.<br> Without giving the test, your marks will not selected. So obviously you are out of the race of the job. 
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="headingEight">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                      <p>How can I know when a perticular test is scheduled on?</p>
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseEight" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+                  <div class="card-body">
+                    When you apply for a job, at the bottom of the same page ( view details ) you will see "Give Test" button. After clicking on that button you will redirected to the page which will show you the scheduled test time. 
+                   </div>
+                </div>
+              </div>
+
+            </div>  
+        </div>
+    </div>
+</body>
+</html>

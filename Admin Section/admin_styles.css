@@ -1,0 +1,272 @@
+.navbar{
+    width: 100%;
+}
+
+.container-fluid img{
+	width: 170px;
+    /* width: 145px; */
+    /* height: 70px; */
+    /* margin-top: -25px; */
+    /* margin-bottom: -10px; */
+}
+
+.navbar .nav-link{
+    font-size: 18px;
+    color: black !important;
+    font-weight: 500;
+    margin: 0px 5px;
+}
+
+.nav-item .dropdown a{
+    font-size: 18px;
+}
+
+.nav-item .dropdown:hover{
+    background-color: #6c63ff;
+    transition: all 0.4s;
+    border-radius: 5px;
+}
+
+.nav-item .dropdown:hover > .dropdown-menu{
+    display: block;
+    border-radius: 5px;
+}
+
+.nav-item .dropdown .btn{
+    font-weight: 500;
+    background: rgb(255 255 255 / 0%);
+    color: black;
+    border: none; 
+    box-shadow: none;
+    padding: 8px 12px;
+}
+
+.nav-item .register-btn{
+    font-weight: 500;
+    background-color: #6c63ff;
+    border-color: #6c63ff;
+    padding: 8px 26px !important;
+}
+
+.nav-item .login-btn{
+    font-weight: 500;
+    background-color: #6c63ff;
+    border-color: #6c63ff;
+    padding: 8px 26px !important;
+}
+
+@media only screen and (max-width: 1090px) {
+    .navbar{
+        background: #f8f9fa !important;
+        width: 100%;
+    }
+    .navbar .nav-link{
+        color: black !important;
+        padding: 8px;
+    }
+    .nav-item .dropdown a{
+        color: black !important;
+    }
+    .nav-item .register-btn{
+        margin: 10px;
+    }
+    .nav-item .login-btn{
+        margin: 10px;
+    }
+}
+.fonts-google{
+	font-family: 'Poppins', sans-serif;
+}
+
+html{
+	font-size: 16px;
+	overflow: hidden;
+}
+body,.card{
+	/* background: #ce89e5; */
+	background: #808fe9;
+}	
+.container-fluid{
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+}
+.main{
+	display: flex;
+}
+.card{
+	border: 0px;
+}
+#img-admin{
+	margin-top: 4rem;
+	margin-left: 10rem;
+	width: 45rem;
+}
+p{
+	margin-top: 6rem; 
+	margin-left: 5rem;
+	font-size: 5.4rem; 
+	color: white;
+}
+
+@media screen and (max-width: 1500px){
+	#img-admin{
+		margin-left: 6rem;
+	}	
+}
+
+@media screen and (max-width: 1400px){
+	#img-admin{
+		margin-left: 2rem;
+	}	
+}
+
+@media screen and (max-width: 1335px){
+	#img-admin{
+		margin-left: 1rem;
+	}	
+	p{
+		margin-left: 3rem;
+	}
+}
+
+@media screen and (max-width: 1270px){
+	#img-admin{
+		margin-left: 2rem;
+		width: 42rem;
+	}	
+	p{
+		margin-top: 4rem;
+		margin-left: 3rem;
+	}
+}
+
+@media screen and (max-width: 1240px){
+	#img-admin{
+		margin-left: 0.8rem;
+		width: 38rem;
+	}
+}
+
+@media screen and (max-width: 1185px){
+	html{
+		font-size: 15px;
+	}
+	#img-admin{
+		margin-left: 1rem;
+		width: 38rem;
+	}
+}
+
+@media screen and (max-width: 1100px){
+	html{
+		font-size: 13.8px;
+	}
+	#img-admin{
+		margin-left: 1rem;
+	}
+}
+
+@media screen and (max-width: 1010px){
+	html{
+		font-size: 13px;
+	}
+	#img-admin{
+		margin-left: 2rem;
+		width: 36rem;
+	}
+}
+
+@media screen and (max-width: 950px){
+	html{
+		font-size: 12.5px;
+	}
+	#img-admin{
+		margin-left: 1rem;
+	}
+}
+
+@media screen and (max-width: 890px){
+	html{
+		font-size: 12px;
+	}
+	#img-admin{
+		margin-left: 1rem;
+	}
+}
+
+@media screen and (max-width: 855px){
+	p{
+		margin-left: 1rem;
+	}
+	#img-admin{
+		margin-left: 0rem;
+	}
+}
+
+@media screen and (max-width: 812px){
+	#img-admin{
+		margin-left: -1rem;
+	}
+	p{
+		margin-left: 0.8rem;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.main{
+		display: block;
+	}
+	.card{
+		align-items: center;
+	}
+	p{
+		margin-top: 0.8rem;
+		text-align: center;
+	}
+	#img-admin{
+		margin-top: 2rem;
+		margin-left: 0rem;
+		width: 42rem;
+	}
+}
+
+@media screen and (max-width: 520px){
+	html{
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 420px){
+	html{
+		font-size: 9px;
+	}
+	#img-admin{
+		height: 28rem;
+	}
+}
+
+@media screen and (max-width: 380px){
+	#img-admin{
+		width: 37rem;
+		height: 30rem;
+	}
+}
+
+@media screen and (max-width: 335px){
+	html{
+		font-size: 8px;
+	}
+}
+
+@media screen and (max-width: 300px){
+	html{
+		font-size: 7.3px;
+	}
+}
+
+@media screen and (max-width: 266px){
+	html{
+		font-size: 6.5px;
+	}
+}

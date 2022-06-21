@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+body{
+	background: #b2bcf5;
+	background-repeat: no-repeat;
+}
+.navbar{
+    width: 100%;
+}
+
+.container-fluid img{
+    width: 170px;
+}
+
+.navbar .nav-link{
+    font-size: 18px;
+    color: black !important;
+    font-weight: 500;
+    margin: 0px 5px;
+}
+
+.nav-item .dropdown a{
+    font-size: 18px;
+}
+
+.nav-item .dropdown:hover{
+    background-color: #6c63ff;
+    transition: all 0.4s;
+    border-radius: 5px;
+}
+
+.nav-item .dropdown:hover > .dropdown-menu{
+    display: block;
+    border-radius: 5px;
+}
+
+.nav-item .dropdown .btn{
+    font-weight: 500;
+    background: rgb(255 255 255 / 0%);
+    color: black;
+    border: none; 
+    box-shadow: none;
+    padding: 8px 12px;
+}
+
+.nav-item .register-btn{
+    font-weight: 500;
+    background-color: #6c63ff;
+    border-color: #6c63ff;
+    padding: 8px 26px !important;
+}
+
+.nav-item .login-btn{
+    font-weight: 500;
+    background-color: #6c63ff;
+    border-color: #6c63ff;
+    padding: 8px 26px !important;
+}
+
+@media only screen and (max-width: 1090px) {
+    .navbar{
+        background: #f8f9fa !important;
+        width: 100%;
+    }
+    .navbar .nav-link{
+        color: black !important;
+        padding: 8px;
+    }
+    .nav-item .dropdown a{
+        color: black !important;
+    }
+    .nav-item .register-btn{
+        margin: 10px;
+    }
+    .nav-item .login-btn{
+        margin: 10px;
+    }
+}
+.fonts-google{
+	font-family: 'Poppins',sans-serif;
+	font-size: 18px;
+}
+
+*[role="form"] {
+    max-width: 70%;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    opacity: 0.95;   
+}
+*[role="form"] h2 { 
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 5%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.form-vertical{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+#table-design {
+	width: 90%;
+	border-collapse: collapse;
+	overflow: hidden;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.308);
+    border-radius: 5px;
+    flex-shrink: 5;
+}
+#mainQ{
+    padding-left: 20px;
+}
+th,
+td {
+	padding: 15px;
+	background-color: #a8d4ff ;
+	color: black;
+}
+
+th{
+	text-align: center;
+}
+
+thead th{
+	background-color: #737ca5;
+}
+.btn-margin{
+	margin-left: 5%;
+    width: 350px;
+}
+.btn-margin1{
+	margin-right: 65%;
+}
+
+@media screen and (max-width: 1390px){
+    *[role="form"] {
+        max-width: 74%;
+    }   
+}
+
+@media screen and (max-width: 1266px){
+    *[role="form"] {
+        max-width: 82%;
+    }   
+}
+
+@media screen and (max-width: 1140px){
+    *[role="form"] {
+        max-width: 90%;
+    }   
+}
+
+@media screen and (max-width: 1050px){
+    *[role="form"] {
+        max-width: 92%;
+    }   
+}
+
+@media screen and (max-width: 971px){
+    *[role="form"] {
+        max-width: 94%;
+    }   
+}
+
+@media screen and (max-width: 880px){
+    *[role="form"] {
+        max-width: 98%;
+    }   
+    #table-design {
+        width: 98%;
+    }   
+    *[role="form"] h2 {
+        font-size: 33px;
+    }
+    .fonts-google, .btn-primary, .btn-margin{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 590px){
+    *[role="form"] {
+        max-width: 100%;
+    }
+    #table-design {
+        width: 100%;
+    }   
+    .btn-margin{
+        margin-left: 5%;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    *[role="form"] h2 {
+        font-size: 25px;
+    }
+    .fonts-google, .btn-primary, .btn-margin{
+        font-size: 12px;
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 280px){
+    .btn-margin{
+        width: 180px;
+    }
+       
+    *[role="form"] h2 {
+        font-size: 20px;
+    }
+}

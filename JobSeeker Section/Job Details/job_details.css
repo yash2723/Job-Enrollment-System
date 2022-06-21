@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+html{
+    font-size: 16px;
+}
+body{
+    background-color: rgb(238,238,238);
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    width: 100%;
+}
+
+.container-fluid img{
+    width: 170px;
+}
+
+.navbar .nav-link{
+    font-size: 18px;
+    color: black !important;
+    font-weight: 500;
+    margin: 0px 5px;
+}
+
+.nav-item .dropdown a{
+    font-size: 18px;
+}
+
+.nav-item .dropdown:hover{
+    background-color: #6c63ff;
+    transition: all 0.4s;
+    border-radius: 5px;
+}
+
+.nav-item .dropdown:hover > .dropdown-menu{
+    display: block;
+    border-radius: 5px;
+}
+
+.nav-item .dropdown .btn{
+    font-weight: 500;
+    background: rgb(255 255 255 / 0%);
+    color: black;
+    border: none; 
+    box-shadow: none;
+    padding: 8px 12px;
+}
+
+.nav-item .register-btn{
+    font-weight: 500;
+    background-color: #6c63ff;
+    border-color: #6c63ff;
+    padding: 8px 26px !important;
+}
+
+.nav-item .login-btn{
+    font-weight: 500;
+    background-color: #6c63ff;
+    border-color: #6c63ff;
+    padding: 8px 26px !important;
+}
+
+@media only screen and (max-width: 1090px) {
+    .navbar{
+        background: #f8f9fa !important;
+        width: 100%;
+    }
+    .navbar .nav-link{
+        color: black !important;
+        padding: 8px;
+    }
+    .nav-item .dropdown a{
+        color: black !important;
+    }
+    .nav-item .register-btn{
+        margin: 10px;
+    }
+    .nav-item .login-btn{
+        margin: 10px;
+    }
+}
+.container{
+    margin-top: 3rem;
+    background-image: white;
+}
+
+/* main card styling */
+.card{
+    display: flex;   /* change this two styling in the media queries */
+    flex-direction: row;          
+}
+.card-img, .card-img-bottom, .card-img-top {
+    width: auto;
+}
+.card-text{
+    font-size: 1.05rem;
+    margin-bottom: 0.2rem;
+}
+.card-img img{
+    margin: 1rem 0;
+    width: 15rem;
+    height: 10rem;
+    justify-content: center;
+}
+.card-title{
+    color: #f16622;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0rem;
+}
+
+/* company name in the main card */
+#card_llc{
+    font-size: 1.1rem;
+    color: black;
+    margin-bottom: 0.55rem;
+}
+
+/* decreasing icons details weight */
+.fa, .fas {
+    font-weight: 550;
+}
+
+/* apply now and last date card styling */
+#apply_card{
+    justify-content: space-between;
+}
+#apply_card i{
+    margin: 1rem;
+}
+#apply_btn{
+    margin-left: auto;
+    background-color: #f16622;
+    border: none;
+    border-radius: 0rem;
+}
+#favorite_after{
+    display: none;
+}
+
+
+/* job details card styling */
+#card_details{
+    margin-top: 1.5rem;
+}
+#card_details .card-body .card-title{
+    font-size: 1.4rem;
+    color: black;
+}
+hr{
+    margin-top: 0.5rem;
+}
+.card_details_title{
+    display: flex;
+    justify-content: space-between;
+}
+#card_details #dop{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.card-text ul li{
+    line-height: 1.7rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+}
+#apply_btn_2{
+    margin: 0.5rem;
+    margin-left: auto;
+    background-color: #f16622;
+    border: none;
+    border-radius: 0rem;
+}
+
+/* media query applied from 450px screen size */
+@media screen and (min-width: 1100px){
+    .container{
+        width: 68vw;     /* decreasing the width of the container */
+    }
+    #card_main .card-body{
+        padding-left: 0;
+    }
+}
+
+@media screen and (min-width: 460px){
+    #card_main .card-body{
+        padding-left: 0;    /* decresing padding of card-body */
+    }
+}
+
+@media screen and (max-width: 460px){
+    .card-body{
+        padding-top: 0;
+    }
+    #card_main .card-body{
+        padding-left: 1rem;
+    }
+    .container{
+        margin-top: 1.6rem;
+    }
+    #card_main{
+        display: block;
+    }
+    .card-img{
+        display: flex;
+        justify-content: center;   
+    }
+}
+
+@media screen and (max-width: 368px){
+    .container{
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 300px){
+    html{
+        font-size: 14px;
+    }
+}

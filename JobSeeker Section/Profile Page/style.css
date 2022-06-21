@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+
+.container-fluid img{
+    width: 170px;
+}
+
+.navbar .nav-link{
+    font-size: 18px;
+    color: black !important;
+    font-weight: 500;
+    margin: 0px 5px;
+}
+
+.nav-item .dropdown a{
+    font-size: 18px;
+}
+
+.nav-item .dropdown:hover{
+    background-color: #6c63ff;
+    transition: all 0.4s;
+    border-radius: 5px;
+}
+
+.nav-item .dropdown:hover > .dropdown-menu{
+    display: block;
+    border-radius: 5px;
+}
+
+.nav-item .dropdown .btn{
+    font-weight: 500;
+    background: rgb(255 255 255 / 0%);
+    color: black;
+    border: none; 
+    box-shadow: none;
+    padding: 8px 12px;
+}
+
+.nav-item .register-btn{
+    font-weight: 500;
+    background-color: #6c63ff;
+    border-color: #6c63ff;
+    padding: 8px 26px !important;
+}
+
+.nav-item .login-btn{
+    font-weight: 500;
+    background-color: #6c63ff;
+    border-color: #6c63ff;
+    padding: 8px 26px !important;
+}
+
+@media only screen and (max-width: 1090px) {
+    .navbar{
+        background: #f8f9fa !important;
+        position: fixed;
+        width: 100%;
+    }
+    .navbar .nav-link{
+        color: black !important;
+        padding: 8px;
+    }
+    .nav-item .dropdown a{
+        color: black !important;
+    }
+    .nav-item .register-btn{
+        margin: 10px;
+    }
+    .nav-item .login-btn{
+        margin: 10px;
+    }
+}
+
+
+.hamburger{
+    top: 18vh;
+    position: fixed;
+    display: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1060px) {
+    
+    .hamburger {
+        display: block;    
+    }
+
+    .first-col{
+        display: none;
+    }
+
+    .col-8{
+        width: 90% !important;
+    }
+
+}
+
+
+.container .row .col-3{
+    box-shadow: 0 0 10px 0 rgba(0,24,128,.1);
+}
+
+.container .row .col-3 .card{
+    border: none;
+}
+
+.container .row .col-3 .card .profile-img{
+    margin-top: 10px;
+    height: 256px;
+}
+
+.container .row .col-3 .card .profile-img #camera-icon{
+    display: none;
+}
+
+.container .row .col-3 .card .profile-img form label img{
+    height: 256px;
+    border-radius: 160px;
+    cursor: pointer;
+}
+
+.container .row .col-3 .card .profile-img .camera-icon{
+    position: absolute;
+    left: 180px;
+    top: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 90px;
+    border-color: white;
+    cursor: pointer;
+}
+
+.container .row .col-3 .card .profile-img .camera-icon img{
+    width: 50px;
+    height: 50px;
+}
+
+.container .row .col-3 .card .card-body .card-title{
+    text-align: center;
+}
+
+.container .row .col-3 .card .card-body .card-text{
+    text-align: center;
+    font-size: 18px;
+}
+
+.container .row .col-3 .card .list-group .highlight-item{
+    background: #e1e7ff;
+    border-left: 3px solid #2e55fa !important;
+}
+
+.container .row .col-3 .card .list-group .list-group-item{
+    padding: 15px 20px;
+    cursor: pointer;
+    transition: all 0.2s;
+    transition: padding 0.5s;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.container .row .col-3 .card .list-group .list-group-item:hover{
+    background: #e1e7ff;
+    border-left: 3px solid #2e55fa;
+    padding: 15px 30px;
+    color: #6c63ff;
+}
+
+.container .row .col-3 .card .list-group .list-group-item svg{
+    width: 30px;
+    height: 30px;
+    margin-right: 13px;
+}
+
+.container .row .col-3 .card a{
+    text-decoration: none;
+    color: black;
+}
+
+.container .row .col-3 .card .list-group-item:hover a{
+    color: #6c63ff;
+}
+
+
+.container .row .col-8{
+    margin-left: 25px;
+    box-shadow: 0 0 10px 0 rgba(0,24,128,.1);
+}
+
+.container .row .col-8 .card{
+    margin: 20px auto;
+    border: none;
+}
+
+.container .row .col-8 .card .card-body .separator{
+    background-color: #6c63ff;
+    opacity: 0.2;
+    width: 100%;
+    height: 2px;
+    margin: 15px 0px;
+}
+
+.container .row .col-8 .card .card-body form input{
+    box-shadow: 0 0 10px 0 rgba(0,24,128,.1);
+    outline: none;
+    border: none;
+    height: 50px;
+}
+
+.container .row .col-8 .card .card-body form textarea{
+    box-shadow: 0 0 10px 0 rgba(0,24,128,.1);
+    outline: none;
+    border: none;
+    margin-bottom: 60px;
+}
+
+.container .row .col-8 .card .card-body form .form-label{
+    margin-top: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

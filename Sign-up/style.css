@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-fluid img{
+    width: 170px;
+}
+
+.nav-link{
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    margin: 0px 5px;
+}
+
+.nav-item .btn{
+    font-weight: 500;
+}
+
+.nav-item .Admin-btn{
+    background-color: #6c63ff;
+
+}
+
+.nav-item .Jobseeker-btn{
+    background-color: #ff6347;
+    border-color: #ff6347;
+}
+
+
+.back-img img{
+    width: 100%;
+    height: 86vh;
+}
+
+.back-img .color-layout{
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.8;
+    background-image: linear-gradient(rgba(0, 11, 29, 0.562),rgba(1, 13, 46, 0.61)), url("./images/back4.png");
+    background-size: cover;
+}
+
+
+
+.card{
+    position: absolute;
+    width: 40%;
+    height: 100vh;
+    background-color: #f20056;
+}
+
+.card .card-body{
+    width: 85%;
+    margin: 20px auto;
+}
+
+.card .card-body .card-title{
+    margin-bottom: 30px;
+    color: white;
+}
+
+.card .card-body .form-control{
+    background-color: #f20056;;
+    box-shadow: none;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+.card .card-body .btn{
+    border: none;
+}
+
+.card .card-body .info{
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+@media only screen and (max-width: 1083px) {
+
+    .card{
+        width: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 740px) {
+
+    .card{
+        width: 100%;
+    }
+
+}
+

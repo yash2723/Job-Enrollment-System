@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Ubuntu&display=swap');
+*{
+    font-family: 'poppins', 'sans-serif';
+}
+/* cv template styling */
+
+/* profile img */
+.myimg{
+    border-radius: 50%;
+    width: 240px;
+    margin-bottom: 50px;
+}
+
+body{
+    background-color: rgb(235, 243, 255);
+}
+.container{
+    color: black;
+}
+
+.background{
+    background-color: rgb(248, 232, 202);
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: pink;
+}
+
+#contact_container, #skills_container, #lang_container{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.contact_header, .lang_header{
+    padding-bottom: 10px;
+}
+#contact_container p{
+    margin-bottom: 0.8rem;
+    font-size: 18px;
+}
+
+#down_cv{
+    color: white;
+    font-weight: 500;
+}
+
+tr, td{
+    padding: 10px;
+}

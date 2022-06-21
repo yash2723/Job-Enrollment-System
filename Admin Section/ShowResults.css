@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.fonts-google{
+    font-family: 'Poppins', 'Rajdhani', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    background: #c6cdeb;
+    background-size: cover;
+}
+
+.navbar{
+    width: 100%;
+}
+
+.container-fluid img{
+    width: 170px;
+}
+
+.navbar .nav-link{
+    font-size: 18px;
+    color: black !important;
+    font-weight: 500;
+    margin: 0px 5px;
+}
+
+.nav-item .dropdown a{
+    font-size: 18px;
+}
+
+.nav-item .dropdown:hover{
+    background-color: #6c63ff;
+    transition: all 0.4s;
+    border-radius: 5px;
+}
+
+.nav-item .dropdown:hover > .dropdown-menu{
+    display: block;
+    border-radius: 5px;
+}
+
+.nav-item .dropdown .btn{
+    font-weight: 500;
+    background: rgb(255 255 255 / 0%);
+    color: black;
+    border: none; 
+    box-shadow: none;
+    padding: 8px 12px;
+}
+
+.nav-item .register-btn{
+    font-weight: 500;
+    background-color: #6c63ff;
+    border-color: #6c63ff;
+    padding: 8px 26px !important;
+}
+
+.nav-item .login-btn{
+    font-weight: 500;
+    background-color: #6c63ff;
+    border-color: #6c63ff;
+    padding: 8px 26px !important;
+}
+
+@media only screen and (max-width: 1090px) {
+    .navbar{
+        background: #f8f9fa !important;
+        width: 100%;
+    }
+    .navbar .nav-link{
+        color: black !important;
+        padding: 8px;
+    }
+    .nav-item .dropdown a{
+        color: black !important;
+    }
+    .nav-item .register-btn{
+        margin: 10px;
+    }
+    .nav-item .login-btn{
+        margin: 10px;
+    }
+}
+*[role="form"] {
+    max-width: 90%;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px #999999;
+    background-color: #f2f2f2;
+    opacity: 0.99;
+}
+.container{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+p{
+    font-weight: bold;
+}
+*[role="form"] h2 { 
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.table {
+	width: 90%;
+    margin: 5%;
+    margin-top: 1%;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    flex-shrink: 5;
+}
+
+tr{
+    text-align: center;
+}
+td{
+    background-color: #99ccff ;
+}
+
+thead th {
+    color: white;
+		background-color: #55608f;
+}
+
+@media screen and (max-width: 300px){
+    *[role="form"] h2{
+        font-size: 30px;
+    }
+    *[role="form"] {
+        max-width: 100%;
+    }
+    .container{
+        margin-top: 28px;
+    }   
+}

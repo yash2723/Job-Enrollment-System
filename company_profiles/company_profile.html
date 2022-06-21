@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- on scroll animation aos file -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <!-- Latest compiled and minified CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+        <!-- Optional theme -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- font-awesome --> 
+        <script src="https://kit.fontawesome.com/41ab1a280e.js"></script>
+        
+        <!-- styling -->
+        <link rel="stylesheet" href="company_profile.css">
+        <title>Sahaj Technologies - About US</title>
+    </head>
+<body>
+    
+    <!-- navigation bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.php">
+        <img src="img/web-logo1.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../index.php">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <div class="dropdown">
+              <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                For Candidates
+              </a>
+
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="../Sign-in/sign-in.php">Profile</a></li>
+                <li><a class="dropdown-item" href="../Sign-in/sign-in.php">My Resume</a></li>
+                <li><a class="dropdown-item" href="../Sign-in/sign-in.php">Find Job</a></li>
+                <li><a class="dropdown-item" href="../Sign-in/sign-in.php">Saved Jobs</a></li>
+                <li><a class="dropdown-item" href="../Sign-in/sign-in.php">Applied Jobs</a></li>
+                <li><a class="dropdown-item" href="../Sign-in/sign-in.php">Job Alerts</a></li>
+                <li><a class="dropdown-item" href="../Sign-in/sign-in.php">Change Password</a></li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="nav-item">
+
+            <div class="dropdown">
+              <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                For Employer
+              </a>
+
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="../Sign-in/sign-in.php">Manage Profile</a></li>
+                <li><a class="dropdown-item" href="../Sign-in/sign-in.php">Manage Jobs</a></li>
+                <li><a class="dropdown-item" href="../Sign-in/sign-in.php">Manage Questions</a></li>
+                <li><a class="dropdown-item" href="../Sign-in/sign-in.php">Show Details</a></li>
+              </ul>
+            </div>
+
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="../Sign-in/sign-in.php">
+              <i class="fas fa-search"></i>
+            </a>
+          </li>
+
+          <li class="nav-item">
+
+            <a class="nav-link btn btn-primary register-btn" href="../Sign-up/sign-up.php">
+              <i class="fas fa-user-plus"></i>
+              Sign Up
+            </a>
+
+          </li>
+
+          <li class="nav-item">
+
+            <a class="nav-link btn btn-primary login-btn" href="../Sign-in/sign-in.php">
+              <i class="fas fa-lock"></i>
+              Login
+            </a>
+
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+        
+      <!-- main slider with slogan -->
+      <div class="container-fluid">
+          <div class="card">
+            <div class="card-img">
+              <img src="img/happy_employee.jpg" alt="">
+            </div>
+            <div class="card-img-overlay"  data-aos="fade-right">
+              <div class="card-title" style="font-weight: bold;">We believe in what people make possible</div>
+            </div>
+          </div>
+          <div class="card" id="small_screen_card">
+            <card class="title">We believe in what people make possible.</card>
+          </div>
+      </div>
+
+        <!-- our journey section -->
+
+        <div class="container-fluid" id="about">
+          <div class="card" id="history" data-aos="fade-right">
+            <div class="card-title">
+              <h3>It all starts with why.</h3>
+            </div>
+            <div class="card-body">
+              <p>Amazing talent is hard to find. Amazing talent with no culture, time zone or language barrier even harder. We’re here to bridge that gap.</p>
+            </div>
+            <div class="card-body">
+              <p>We are passionate about creating a calm, inspiring work enviroment that attracts amazing talent. We connect that talent with some amazing companies that provide mutual growth opportunities.</p>
+            </div>
+
+            <div class="card" id="proof">
+              <div class="card-title">
+                Founded <br> <span class="founded">2010</span>
+              </div>
+              <div class="card-title">
+                Happy Employees <br> <span class="employees">100</span>
+              </div>
+              <div class="card-title">
+                Awards Won <br> <span class="awards">23</span> 
+              </div>
+              <div class="card-title" id="last_proof">
+                Customer Served <br> <span class="customers">61</span> 
+              </div>
+            </div>
+          </div>
+
+          <div class="card" id="our_journey" data-aos="fade-left">
+            <div class="card-title" id="our_journey_title"><i class="fas fa-calendar-alt"> &nbsp;Our Story</i></div>
+            <div>
+              <p class="year">2010</p>
+              <p class="text">JobFinder was founded by Sahaj Brahmbhatt. A UX/UI design firm commited to helping our customers in Silicon Valley design their web & mobile experiences.</p>
+            </div>
+            <div>
+              <p class="year">2012</p>
+              <p class="text">We grew to about 12 team members and also offered frontend development services. We also now had clients in Gujarat.</p>
+            </div>
+            <div>
+              <p class="year">2014</p>
+              <p class="text">As our clients developed needs for mobile & web development, we started offering these services. Our offices expanded, about 25 team members.</p>
+            </div>
+            <div>
+              <p class="year">2015</p>
+              <p class="text">We made our transition from being a UX/UI/Development agency to a dedicated nearshore team model. We reinvented ourselves.</p>
+            </div>
+            <div>
+              <p class="year">2020</p>
+              <p class="text">Today, we work closely with our partners, continuing our mission of connecting Gujarat’s top IT talent to the world. Over 100 team members and quickly growing!</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- our company values -->
+        <div class="container-fluid" id="company_values"  data-aos="zoom-in">
+          <div class="values_title">
+            Our Company Values
+          </div>
+          <div class="values">
+            <div class="values1">
+              <div class="card">
+                <i class="fas fa-volume-up"></i>
+                <div class="card-title">Transparency</div>
+                <div class="card-body">Openness with our clients and employees. We raise issues and provide solutions promptly.</div>
+              </div>
+              <div class="card" id="second_value">
+                <i class="fas fa-hard-hat"></i>
+                <div class="card-title">Commitment</div>
+                <div class="card-body">Our word and hard work over everything else. Our clients and vision are our guiding beacons.</div>
+              </div>
+            </div>
+            <div class="values2">
+              <div class="card">
+                <i class="fas fa-book"></i>
+                <div class="card-title">Self Improvement</div>
+                <div class="card-body">Never stop learning, never stop evolving into who we want to be and wgere we want to be.</div>
+              </div>
+              <div class="card"  id="fourth_value">
+                <i class="fas fa-rocket"></i>
+                <div class="card-title">Over Deliver</div>
+                <div class="card-body">Deliver more value than our team & clients expects. Every day, over every delivery.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- where we located? -->
+        <div class="container" id="location">
+          <div class="card" id="location_text" data-aos="fade-right">
+            <div class="card-title">From Vadodara, India with ❤</div>
+            <div class="card-body">
+                <p class="card-text" id="main_text">We live and work in Gujarat (India). Mainly from Vadodara. Our stategic locations are short flights away from the Gujarat and in MadyaPradesh (India).</p>
+                <p class="card-text" id="hq">Vadodara</p>
+                <p class="card-text">Our main HQ, located in the Urban club, Alkapuri and just a two hour flight away from Mumbai. This is where it all started and where most of the company is located.</p>
+            </div>
+            <div class="card" id="career">
+              <div class="card-title">Career Oportunities</div>
+              <div class="card-body">
+                <p class="card-text">Looking for your next career move? We are constantly hiring for many open positions. Click below and apply today.</p>
+                <div class="btn btn-primary">Learn More</div>
+              </div>
+            </div>
+          </div>
+          <div class="card" id="india_map" data-aos="fade-left">
+            <img class="card-img" src="img/india_map.png" alt="">
+          </div>
+        </div>
+
+        <!-- customer review section -->
+        <div class="container" id="founder_info" data-aos="zoom-in">
+          <h2>Who is our founder?</h2>
+            <div class="card">
+              <img class="card-img-top" src="img/Capture.PNG" alt="Card image cap">
+              <div class="card-body">
+                <h3 class="card-title">Sahaj Brahmbhatt</h3>
+                <p class="card-text">Sahaj Brahmbhatt is one of the leading youngest influencers in India nowadays. He is a software engineer pass out from the Netaji Subhas Institute of Technology (NSIT) is a state university located in Dwarka, New Delhi, India. Sahaj's inspiration is Mr. Ratan Tata. Sahaj Brahmbhatt's motto is not to be a businessman but to be an industrialist and to contribute to the economy of India.</p>
+              </div>
+            </div>
+        </div>
+
+
+        <!-- aos script and intialization -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init(
+            {
+              offset: 200,
+              duration: 1300
+            }
+          );
+        </script>
+</body>
+</html>

@@ -1,0 +1,697 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    background: rgb(255 255 255 / 0%) !important;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-background{
+    background-color: #f8f9fa !important;
+}
+
+.container-fluid img{
+    width: 170px;
+}
+
+.navbar .nav-link{
+    font-size: 18px;
+    color: white !important;
+    font-weight: 500;
+    margin: 0px 5px;
+}
+
+.navbar-background .nav-link{
+    color: black !important;
+}
+
+.navbar-background .nav-item .dropdown a{
+    color: black !important;
+}
+
+.nav-item .dropdown a{
+    font-size: 18px;
+}
+
+.nav-item .dropdown:hover{
+    background-color: #6c63ff;
+    transition: all 0.4s;
+    border-radius: 5px;
+}
+
+.nav-item .dropdown:hover > .dropdown-menu{
+    display: block;
+    border-radius: 5px;
+}
+
+.nav-item .dropdown .btn{
+    font-weight: 500;
+    background: rgb(255 255 255 / 0%);
+    border: none; 
+    box-shadow: none;
+    padding: 8px 12px;
+}
+
+.nav-item .register-btn{
+    font-weight: 500;
+    background-color: #6c63ff;
+    border-color: #6c63ff;
+    padding: 8px 26px !important;
+}
+
+.nav-item .login-btn{
+    font-weight: 500;
+    background-color: #6c63ff;
+    border-color: #6c63ff;
+    padding: 8px 26px !important;
+}
+
+@media only screen and (max-width: 1090px) {
+    .navbar{
+        background: #f8f9fa !important;
+        position: fixed;
+        width: 100%;
+    }
+    .navbar .nav-link{
+        color: black !important;
+        padding: 8px;
+    }
+    .nav-item .dropdown a{
+        color: black !important;
+    }
+    .nav-item .register-btn{
+        margin: 10px;
+    }
+    .nav-item .login-btn{
+        margin: 10px;
+    }
+}
+
+
+
+.carousel-caption{
+    z-index: 2;
+}
+
+.carousel-indicators{
+    z-index: 2;
+}
+
+.carousel-item img{
+    width: initial !important;
+    height: 100vh; 
+}
+
+.carousel-item .carousel-caption{
+    bottom: 30%;
+    padding: 50px;
+    background: rgb(255 255 255 / 10%);
+    border-radius: 10px;
+}
+
+.carousel-item .carousel-caption .header{
+    text-align: left;
+    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+@media only screen and (max-width: 1223px) {
+    .carousel-item .carousel-caption{
+        bottom: 20%;
+    }
+}
+
+@media only screen and (max-width: 931px) {
+    .carousel-item .carousel-caption .header{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .carousel-item .carousel-caption{
+        padding: 25px;
+        bottom: 25%;
+    }
+    .carousel-item .carousel-caption h6{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .carousel-item .carousel-caption{
+        bottom: 32%;
+    }
+    .carousel-item .carousel-caption .header{
+        font-size: 30px;
+    }
+}
+
+
+.carousel-item .carousel-caption h6{
+    text-align: left;
+}
+
+.carousel-item .carousel-caption form .btn{
+    background-color: #1e83f0;
+    color: white;
+}
+
+.carousel-item .carousel-caption a{
+    width: 200px;
+    padding: 10px;
+    display: block;
+    margin-top: 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #1e83f0;
+}
+
+.carousel-control-prev{
+    z-index: 2;
+}
+
+.carousel-control-next{
+    z-index: 2;
+}
+
+.color-layout{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.7;
+    
+    z-index: 1;
+
+    background: linear-gradient(130deg , rgba(20,31,114,1) 0%,rgba(52,65,161,1) 71%,rgba(52,65,161,1) 100%);
+
+    background: linear-gradient(45deg , rgba(139,145,221,1) 0%,rgba(16,25,93,1) 71%,rgba(16,25,93,1) 100%);
+}
+
+
+
+.upper-arrow img{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.display-none{
+    display: none;
+}
+
+
+
+.section-header{
+    font-family: 'QuickSand';
+    text-align: center;
+    margin: 50px;
+    color: black;
+}
+
+.section-header .animated{
+    color: #6c63ff;
+}
+
+
+
+.how-works{
+    padding-top: 1px;
+    padding-bottom: 100px; 
+}
+
+.how-works .row .col .card{
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    transition: all 0.8s;
+}
+
+.how-works .row .col .card:hover{
+    transform: translate(0px , -20px);
+}
+
+.how-works .row .col .card img{
+    width: 200px;
+    height: 200px;
+    align-self: center;
+    transition: all 0.3s;
+}
+
+.how-works .row .col .card .card-body{
+    text-align: center;
+}
+
+.how-works .row .col .card .card-body .card-text{
+    color: #667488;
+}
+
+
+
+.create-account .row {
+    margin: 0px;
+    padding: 0px;
+}
+
+.create-account .row .col{
+    margin: 0px;
+}
+
+.create-account .row .first-col{
+    background-color: #6c63ff;
+
+}
+
+.create-account .row .second-col{
+    background-color: #ff6347;
+}
+
+.create-account .row .col .card{
+    border: none;
+    padding: 50px;
+    color: white;
+}
+
+.create-account .row .first-col .card{
+    background-color: #6c63ff;
+}
+
+.create-account .row .second-col .card{
+    background-color: #ff6347;
+}
+
+.create-account .row .first-col a{
+    background-color: white;
+    border-radius: 20px;
+}
+
+.create-account .row .second-col a{ 
+    background-color: white;
+    border-radius: 20px;
+}
+
+.create-account .row .col a img{
+    width: 25px;
+    height: 25px;
+}
+
+
+
+.Categories{
+    padding-top: 1px;
+    padding-bottom: 100px;      
+    background: rgb(176 106 179 / 10%); 
+}
+
+.Categories .col{
+    border: none;
+}
+
+.Categories .col a{
+    text-decoration: none;
+    color: black;
+}
+
+.Categories .col a:hover{
+    color: #6c63ff;
+}
+
+
+.Categories .col .card{
+    border: none;
+    border-color: white;
+    border-radius: 20px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.Categories .col .card img{
+    width: 150px;
+    height: 150px;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.Categories .col .card .card-body{
+    text-align: center;
+}
+
+.Categories .col .card .card-footer{
+    border: none;
+    text-align: center;
+    background-color: white;
+}
+
+
+
+.job-post-section{
+    width: 100%;
+    padding-top: 1px;
+    padding-bottom: 100px;
+    background: #e7e6fa;
+}
+
+.job-post-section .job-post{
+    width: 80%;
+    margin: auto;
+}
+
+.job-post .card{
+    margin: 20px auto;
+    border-radius: 10px;
+    padding-left: 20px;
+    box-shadow: -2px 0px 3px 0px white;
+    padding-top: 15px;
+    border: none;
+    box-shadow: 0 0 10px 0 rgb(0 24 128 / 10%);
+    border-left: 6px solid #c9c7f5 !important;
+}
+
+.job-post .card:hover{
+    border-left: 6px solid #6c63ff !important;
+}
+
+.job-post .col-md-4{
+    width: 100px;
+}
+
+.job-post .col-md-4 img{
+    width: 90px;
+    height: 90px;
+}
+
+.job-post .col-md-8{
+    width: 86%;
+}
+
+.job-post .card-title{
+    display: inline-block;
+}
+
+.job-post .job-icon{
+    width: 212px;
+    height: 200px;
+}
+
+.job-post .card-body .btn-part-time{
+    background-color: #e1e7ff;
+    border-color: #e1e7ff;
+    color: black;
+}
+
+.job-post .card-body .separator{
+    width: 100%;
+    height: 2px;
+    background-color: #6c63ff;
+    opacity: 0.2;
+    margin: 5px 0px;
+}
+
+.job-post .card-body .card-text a{
+    display: inline-block;
+    margin: 10px 10px;
+    text-decoration: none;
+    color: #6c63ff;
+}
+
+.job-post .card-body .text-muted{
+    color: #6c757d;
+    margin-left: 10px;
+}
+
+.job-post .card-body .view-details{
+    display: block;
+    margin: auto;
+    margin-right: 0px;
+}
+
+.job-post a{
+    text-decoration: none;
+    color: black;
+}
+
+.job-post .save-img{
+    position: absolute;
+    right: 30px;
+    top: 18px;
+    /* border: 1px solid red; */
+    cursor: pointer;
+    padding: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+    border-radius: 80px;
+    background-color: #fafafa;
+    /* color: white; */
+}
+
+.job-post .save-img:hover i{
+    color: #6c63ff;
+}
+
+.job-post .save-img .save-svg{
+    font-size: 30px;
+}
+
+.job-post .save-img .fas{
+    color: #6c63ff;
+    transition: 0.4s;
+}
+
+.job-post-section .view-more-jobs{
+    width: 249px;
+    margin: 30px auto;
+}
+
+.job-post-section .view-more-jobs .btn{
+    background-color: #ff6347;
+    border-color: #ff6347;
+}
+
+.job-post-section .view-more-jobs .btn img{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+.cv-builder {
+    background-color: #6c63ff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.cv-builder .card{
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+}
+
+.cv-builder .card .card-body .card-title{
+    font-weight: 900;
+}
+
+.cv-builder .card .card-body .card-text{
+    margin-top: 20px;
+}
+
+.cv-builder .card .card-body .btn{
+    background-color: white;
+    color: #6c63ff;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.cv-builder .card .card-body .btn i{
+    margin-right: 10px;
+}
+
+
+.contact{
+    width: 100%;
+    padding: 1px 12%;
+    padding-bottom: 100px;
+    background: #1a1a1d;
+}
+
+.contact .section-header{
+    color: white;
+}
+
+.contact .row .first-col .card{
+    background: #1a1a1d;
+    border: none;
+}
+
+.contact .row .col .card .card-body form .border-none{
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid white;
+    background: #1a1a1d;
+    color: white;
+}
+
+.contact .row .col .card .card-body form label{
+    color: white;
+}
+
+.contact .row .col .card .card-body form .border-none:focus{
+    border-bottom: 1px solid #6c63ff;
+}
+
+.contact .second-col{
+    color: white;
+    background: #f20056;
+    border-radius: 20px;
+}
+
+.contact .second-col .card{
+    background: #f20056;
+    border: none;
+}
+
+.contact .second-col .card table{
+    border: none;
+    color: 	white;
+}
+
+.contact .second-col .card table tr{
+    padding: 20px 0px;
+    display: block;
+}
+
+.contact .second-col .card table td{
+    border: none;
+    vertical-align: middle;
+}
+
+.contact .second-col table .icon{
+    vertical-align: middle;
+}
+
+.contact .second-col table .icon svg{
+    width: 40px;
+    height: 40px;
+}
+
+
+.footer{
+    width: 100%;
+    background-color: rgb(34 , 34, 34);
+}
+
+.footer .col{
+    margin-bottom: 50px;
+    background-color: rgb(34 , 34, 34);
+}
+
+.footer .card{
+    background-color: rgb(34 , 34, 34);
+    border: none;
+}
+
+.footer .card-body .card-title{
+    color: white;
+    margin: 43px 0px;
+}
+
+.footer .card-body .card-text{
+    color: #bbbbbb !important;
+}
+
+.footer .card-body .card-text a:hover{
+    padding-left: 10px;
+    transition: all 1s ease-in;
+    transition: all 0.3s ease-out;
+    color: white;
+}
+
+.footer .card .icons{
+    margin: 10px 20px;
+}
+
+.footer .card .icons a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: rgb(66 , 66, 66);
+    border: 2px solid rgb(66 , 66, 66);
+    border-radius: 90px;
+    margin-right: 25px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.footer .card .icons a:hover{
+    background-color: rgb(34 , 34, 34);
+    border-color: rgb(34 , 34, 34);
+}
+
+.footer .card .icons a img{
+    width: 30px;
+    height: 20px;
+}
+
+.footer .have-question .card-body img{
+    width: 20px;
+    height: 30px;
+    float: left;
+}
+
+.footer-que-text{
+    margin: 0px 40px;
+    color: #bbbbbb;
+}
+
+
+
+.footer .about-us .card-body .card-title{
+    height: 60px;
+    margin: 35px 0px;
+}
+
+.footer .about-us .card-body .card-title img{
+    width: 210px;
+    height: 60px;
+}
+
+.footer .about-us .card-text a{
+    color: #bbbbbb;
+    display: block;
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+.footer .for-candidate .card-text a{
+    color: #bbbbbb;
+    display: block;
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+.copyright{
+    color: white;
+    width: 100%;
+    padding: 25px 50px;
+    text-align: center;
+    background: rgb(66 , 66, 66);
+}
+
+
+@media only screen and (max-width: 768px) {
+    .footer .col {
+        margin-bottom: 0px;
+    }
+}
